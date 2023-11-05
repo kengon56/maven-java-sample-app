@@ -25,7 +25,7 @@ stages:
       inputs:
         command: buildAndPush
         dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
-        containerRegistry: 'dockerhub-saurabh'
-        repository: 'saurabhd2106/petclinic-java'
+        containerRegistry: 'kgdevop109'
+        repository: 'kengon56/maven-java-sample-app'
         tags: |
           $(tag)
